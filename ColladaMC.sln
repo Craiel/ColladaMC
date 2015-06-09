@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColladaMC", "ColladaMC.csproj", "{12DFF84C-13FE-4AB2-94F3-A541749F18EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarbonCore.Utils", "..\CarbonCore\Utils\CarbonCore.Utils.csproj", "{E05836D9-0BB3-4BFA-89E6-F5ED40A9D93C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarbonCore.UtilsCommandLine", "..\CarbonCore\UtilsCommandLine\CarbonCore.UtilsCommandLine.csproj", "{E99C6721-99A5-4DC3-BD9D-DC88F65D217A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarbonCore.Processing", "..\CarbonCore\Processing\CarbonCore.Processing.csproj", "{4DB8D196-1F50-493F-9FFB-40E1E503EE87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarbonCore.GrammarParser", "..\CarbonCore\GrammarParser\CarbonCore.GrammarParser.csproj", "{50C22F18-89F6-48F3-A29F-CA25FDADDB90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CarbonCore", "CarbonCore", "{0C0E1F20-2CFC-417E-9EC5-34C1FC7557C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarbonCore.UtilsDX", "..\CarbonCore\UtilsDX\CarbonCore.UtilsDX.csproj", "{C3E6C35A-FE50-481B-9B6A-559DFDFFB52E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyotek.Data.Nbt", "Cyotek.Data.Nbt\Cyotek.Data.Nbt.csproj", "{14287AD3-9576-46E6-9DE3-B7731A496DA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12DFF84C-13FE-4AB2-94F3-A541749F18EB}.Debug|x64.ActiveCfg = Debug|x64
+		{12DFF84C-13FE-4AB2-94F3-A541749F18EB}.Debug|x64.Build.0 = Debug|x64
+		{12DFF84C-13FE-4AB2-94F3-A541749F18EB}.Release|x64.ActiveCfg = Release|x64
+		{12DFF84C-13FE-4AB2-94F3-A541749F18EB}.Release|x64.Build.0 = Release|x64
+		{E05836D9-0BB3-4BFA-89E6-F5ED40A9D93C}.Debug|x64.ActiveCfg = Debug|x64
+		{E05836D9-0BB3-4BFA-89E6-F5ED40A9D93C}.Debug|x64.Build.0 = Debug|x64
+		{E05836D9-0BB3-4BFA-89E6-F5ED40A9D93C}.Release|x64.ActiveCfg = Release|x64
+		{E05836D9-0BB3-4BFA-89E6-F5ED40A9D93C}.Release|x64.Build.0 = Release|x64
+		{E99C6721-99A5-4DC3-BD9D-DC88F65D217A}.Debug|x64.ActiveCfg = Debug|x64
+		{E99C6721-99A5-4DC3-BD9D-DC88F65D217A}.Debug|x64.Build.0 = Debug|x64
+		{E99C6721-99A5-4DC3-BD9D-DC88F65D217A}.Release|x64.ActiveCfg = Release|x64
+		{E99C6721-99A5-4DC3-BD9D-DC88F65D217A}.Release|x64.Build.0 = Release|x64
+		{4DB8D196-1F50-493F-9FFB-40E1E503EE87}.Debug|x64.ActiveCfg = Debug|x64
+		{4DB8D196-1F50-493F-9FFB-40E1E503EE87}.Debug|x64.Build.0 = Debug|x64
+		{4DB8D196-1F50-493F-9FFB-40E1E503EE87}.Release|x64.ActiveCfg = Release|x64
+		{4DB8D196-1F50-493F-9FFB-40E1E503EE87}.Release|x64.Build.0 = Release|x64
+		{50C22F18-89F6-48F3-A29F-CA25FDADDB90}.Debug|x64.ActiveCfg = Debug|x64
+		{50C22F18-89F6-48F3-A29F-CA25FDADDB90}.Debug|x64.Build.0 = Debug|x64
+		{50C22F18-89F6-48F3-A29F-CA25FDADDB90}.Release|x64.ActiveCfg = Release|x64
+		{50C22F18-89F6-48F3-A29F-CA25FDADDB90}.Release|x64.Build.0 = Release|x64
+		{C3E6C35A-FE50-481B-9B6A-559DFDFFB52E}.Debug|x64.ActiveCfg = Debug|x64
+		{C3E6C35A-FE50-481B-9B6A-559DFDFFB52E}.Debug|x64.Build.0 = Debug|x64
+		{C3E6C35A-FE50-481B-9B6A-559DFDFFB52E}.Release|x64.ActiveCfg = Release|x64
+		{C3E6C35A-FE50-481B-9B6A-559DFDFFB52E}.Release|x64.Build.0 = Release|x64
+		{14287AD3-9576-46E6-9DE3-B7731A496DA3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{14287AD3-9576-46E6-9DE3-B7731A496DA3}.Debug|x64.Build.0 = Debug|Any CPU
+		{14287AD3-9576-46E6-9DE3-B7731A496DA3}.Release|x64.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E99C6721-99A5-4DC3-BD9D-DC88F65D217A} = {0C0E1F20-2CFC-417E-9EC5-34C1FC7557C8}
+		{4DB8D196-1F50-493F-9FFB-40E1E503EE87} = {0C0E1F20-2CFC-417E-9EC5-34C1FC7557C8}
+		{50C22F18-89F6-48F3-A29F-CA25FDADDB90} = {0C0E1F20-2CFC-417E-9EC5-34C1FC7557C8}
+		{E05836D9-0BB3-4BFA-89E6-F5ED40A9D93C} = {0C0E1F20-2CFC-417E-9EC5-34C1FC7557C8}
+		{C3E6C35A-FE50-481B-9B6A-559DFDFFB52E} = {0C0E1F20-2CFC-417E-9EC5-34C1FC7557C8}
+	EndGlobalSection
+EndGlobal
